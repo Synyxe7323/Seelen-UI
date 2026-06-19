@@ -4,8 +4,8 @@ auth:
     upewnij się, że usługa „Credential Manager” systemu Windows (VaultSvc) jest
     włączona i działa, a następnie spróbuj ponownie.
   login_failed_title: Logowanie nie powiodło się
-cancel: Anulować
-done: Zrobione
+cancel: Anuluj
+done: Zastosuj
 elevated:
   description: >-
     Seelen UI działa z uprawnieniami administratora.
@@ -26,9 +26,9 @@ resource:
   downloading: Pobieranie zasobów...
   downloading_body: Może to potrwać kilka sekund, nie zamykaj okna.
   enable: Włącz
-  login_required_action: Zalogować się
+  login_required_action: Zaloguj się
   login_required_body: Aby pobrać ten zasób, musisz się zalogować.
-  login_required_title: Zaloguj się Wymagane
+  login_required_title: Zaloguj się ( wymagane )
 runtime:
   corrupted_data: Uszkodzone dane
   corrupted_file: >-
@@ -64,7 +64,7 @@ service:
 shortcut:
   conflicts:
     body: Niektóre skróty są przypisane do wielu działań. Przypisz je ponownie.
-    dismiss: Odrzucać
+    dismiss: Odrzuć
     review: Recenzja
     title: Wykryto konflikty skrótów
   register:
@@ -77,8 +77,8 @@ widget_liveness:
     Możesz spróbować ponownie uruchomić aplikację.
   failed_title: Błąd widgetu
 widget_permissions:
-  perm_open_file: otwarte pliki
-  perm_run: uruchamiać programy
+  perm_open_file: Otwórz plik
+  perm_run: Uruchom plik wykonywalny
   request_description: |-
     Widżet „%{widget_name}” prosi o pozwolenie na %{command}.
 
