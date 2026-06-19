@@ -90,13 +90,13 @@ devtools:
   settings_file: Plik ustawień
   shared_components: Standardowe komponenty SLU
   simulate_dialog:
-    label: Symuluj okno dialogowe
-    trigger: Spust
+    label: Symulacja okna dialogowego
+    trigger: Rozpocznij
   simulate_perm:
     label: Symuluj żądanie pozwolenia na widget
     result_allowed: ✓ Zezwolenie udzielone
     result_denied: ✗ Odmowa pozwolenia
-    trigger: Symulować
+    trigger: Rozpocznij
     widget_id_placeholder: '@autor/nazwa-widgetu'
   tools: Narzędzia
   unlock_shortcuts: Odblokuj skróty tylko do odczytu
@@ -112,10 +112,10 @@ devtools:
   widgets_debug:
     actions: Działania
     empty: Nie załadowano żadnych widżetów. Kliknij Odśwież.
-    instance_id: Identyfikator instancji
-    monitor_id: Identyfikator monitora
+    instance_id: ID instancji
+    monitor_id: ID monitora
     open_devtools: Narzędzia deweloperskie
-    refresh: Odświeżać
+    refresh: Odśwież
     status: Status
     tab: Widżety
     widget_id: Identyfikator widgetu
@@ -168,7 +168,7 @@ general:
   performance_mode:
     label: Optymalizacje
     on_battery: Na baterii
-    on_energy_saver: Na oszczędności energii
+    on_energy_saver: W trybie oszczędzania energii
     options:
       disabled: Wyłączony
       extreme: Skrajny
@@ -218,12 +218,12 @@ inProgress: W trakcie...
 insert: Wstawić
 join_us: Dołącz do nas!
 loading: Ładowanie...
-miscellaneous: Różnorodny
+miscellaneous: Różne
 monitors_configurations:
   label: Monitor {{indeks}}
 more: Więcej
 'no': NIE
-open: otwarty
+open: Otwórz
 quit: Zrezygnować
 remove: Usunąć
 reset_all_to_default: Przywróć wartości domyślne
@@ -294,7 +294,7 @@ sides:
   right: Prawo
   top: Góra
 toolbar:
-  auto_hide: Automatyczne ukrywanie
+  auto_hide: Ukryj automatycznie
   auto_hide_touch_disabled: >-
     Funkcja automatycznego ukrywania nie jest dostępna na urządzeniach z ekranem
     dotykowym
@@ -448,7 +448,7 @@ wm:
     offset: Przesunięcie granic
     width: Szerokość granicy
   description: Opis
-  drag_behavior: Przeciągnij zachowanie
+  drag_behavior: Zachowanie podczas przeciągania
   drag_behavior_options:
     sort: Sortuj (zmieniaj kolejność okien podczas przeciągania)
     swap: Zamień (zamień okna po przeciągnięciu)
