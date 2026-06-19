@@ -19,11 +19,11 @@ context_menu:
   reorder_enable: Odblokuj pasek zadań
 media:
   label: Odtwarzacz multimediów
-  not_playing: Nic nie gra
+  not_playing: Brak multimediów
 show_desktop:
   label: Pokaż pulpit
 start:
-  label: Menu startowe
+  label: Menu Start
 taskbar_menu:
   add_file: Dodaj skrót
   desktop: Dodaj moduł pulpitu
@@ -33,8 +33,8 @@ taskbar_menu:
   task_manager: Menedżer zadań
   trash_bin: Dodaj moduł Kosza
 trash_bin:
-  edit_icon_empty: Ikona edycji (pusta)
-  edit_icon_full: Ikona edycji (pełna)
+  edit_icon_empty: Edytuj ikonę (pusty)
+  edit_icon_full: Edytuj ikonę (pełny)
   empty_bin: Opróżnij Kosz
   label: Kosz
 weg:
